@@ -1,0 +1,12 @@
+{
+  "name": "iframe-sample",
+  "version": "0.1.0",
+  "main": "out/index.js",
+  "repository": "git@github.com:hopara-io/iframe-sample.git",
+  "scripts": {
+    "start": "http-server -p 3000 -c-1 ./src"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
