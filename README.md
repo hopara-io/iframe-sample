@@ -19,7 +19,7 @@ const clientSecret = "your-hopara-client-secret"
 > :warning: In a production environment the access token request should take place on the back-end. This shared secret gives full control over your account.
 
 3- Now you're ready to start the application:
-git a
+
 ```shell
 $ npm start
 ```
