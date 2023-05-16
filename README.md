@@ -1,6 +1,6 @@
 # iframe-sample
 This repo demonstrates how to add [Hopara](https://hopara.io) visualizations to your project. It's based on the
- [**Hopara React**](https://www.npmjs.com/package/@hopara/react) module.
+ [**Hopara Iframe**](https://www.npmjs.com/package/@hopara/iframe) module.
 
 ## Running the application
 
@@ -19,7 +19,7 @@ const clientSecret = "your-hopara-client-secret"
 > :warning: In a production environment the access token request should take place on the back-end. This shared secret gives full control over your account.
 
 3- Now you're ready to start the application:
-
+git a
 ```shell
 $ npm start
 ```
