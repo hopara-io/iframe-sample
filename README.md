@@ -24,8 +24,8 @@ git a
 $ npm start
 ```
 
-## @hopara/react module
-You can further customize the integration by changing the [@hopara/react](https://www.npmjs.com/package/@hopara/react) component props.
+## @hopara/iframe module
+You can further customize the integration by changing the [@hopara/iframe](https://www.npmjs.com/package/@hopara/iframe) component props.
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 ```
 
-Additional information on this component is available at [@hopara/react](https://www.npmjs.com/package/@hopara/react).
+Additional information on this component is available at [@hopara/iframe](https://www.npmjs.com/package/@hopara/iframe).
 
 
