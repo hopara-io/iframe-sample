@@ -13,7 +13,7 @@
       // This shared secret gives full control over your account.
       
       getToken({clientId, clientSecret}).then(({access_token}) => {
-        Hopara.init({
+        const hopara = Hopara.init({
           accessToken: access_token,
           app: 'sample',
           targetElementId: 'hopara-app-element',
@@ -27,6 +27,11 @@
             }
           ]
         })
+
+        // we are using hopara instance to refresh the data every 5 seconds
+        setInterval(() => {
+          hopara.refresh()
+        }, 5000)
       })
     })
     
