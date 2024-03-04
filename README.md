@@ -34,12 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     app: 'sample',
     targetElementId: 'hopara-app-container-id'
   })
-
-  // You may want to control the refresh data with the hopara instance `refresh` method
-  // In this example, we are setting an interval of 5 seconds to refresh data constantly
-  setInterval(() => {
-    hopara.refresh()
-  }, 5000)
 })
 ```
 
