@@ -31,7 +31,7 @@ You can further customize the integration by changing the [@hopara/iframe](https
 document.addEventListener('DOMContentLoaded', function () {
   const hopara = Hopara.init({
     accessToken: 'your-access-token',
-    app: 'sample',
+    visualization: 'sample',
     targetElementId: 'hopara-app-container-id'
   })
 })
