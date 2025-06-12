@@ -16,7 +16,7 @@
       getToken({clientId, clientSecret}).then(({access_token}) => {
         const hopara = Hopara.init({
           accessToken: access_token,
-          visualization: 'sample',
+          visualizationId: 'sample',
           targetElementId: 'hopara-app-element',
           dataLoaders: [
             {
